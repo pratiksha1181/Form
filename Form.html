@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cont {
+        width: 100%;
+        border: 1px solid lightgreen;
+      }
+      h1 {
+        background-color: lightgreen;
+        margin-top: 0px;
+      
+      }
+      .btn {
+        height: 40px;
+        width: 150px;
+        border: none;
+        background-color: lightgreen;
+      }
+      textarea{
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">
+ 
+     <h1>Workshop Registration </h1>
+        
+      <table cellspacing="30" width="100%">
+        <tr>
+          <td>
+            <u>Register now while sets are availabel</u>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="first name" colspan="3">First Name</label>
+          </td>
+          <td>
+            <input type="text" name="first name" id="first name" />
+          </td>
+          <td><u>Lunch</u></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="last name">Last name</label>
+          </td>
+          <td>
+            <input type="last name" name="last name" id="last name" />
+          </td>
+
+          <td>
+            <label for="Meal performance">Meal performance</label>
+          </td>
+          <td>
+            <select>
+              <option>Vegetarian</option>
+              <option>non-vegetarian</option>
+              <option>both</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="company institution">Company institution</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="company institution"
+              id="company institution"
+            />
+          </td>
+          <td>
+            <label><u>Payment Details</u></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="address">Address</label>
+          </td>
+          <td>
+            <textarea rows="5" id="address"></textarea>
+          </td>
+          <td>
+            <label>Payment Mode</label>
+          </td>
+          <td>
+            <input type="checkbox" />Cash<br />
+            <input type="checkbox" />Cheque<br />
+            <input type="checkbox" />Demand Draft<br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">City</label>
+          </td>
+          <td>
+            <input type="city" name="city" id="city" />
+          </td>
+          <td>
+            <label for="DD/Cheque No.">DD/Cheque No.</label>
+          </td>
+          <td>
+            <input type="DD/Cheque No." name="DD/Cheque No." id="DD/Cheque No."/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="state">State/Province/Region</label>
+          </td>
+          <td>
+            <select>
+              <option>-select</option>
+              <option>maharashtra</option>
+              <option>Rajasthan</option>
+              <option>Bihar</option>
+            </select>
+          </td>
+          <td>
+            <label for="Drawn on(Bank Name)">Drawn On(Bank Name)</label>
+          </td>
+          <td>
+            <input
+              type="Drawn on(Bank Name)"
+              name="Drawn on(Bank Name)"
+              id="Drawn on (Bank Name)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="country">Country</label>
+          </td>
+          <td>
+            <select>
+              <option>-select</option>
+              <option>INDIA</option>
+              <option>USA</option>
+              <option>UAE</option>
+            </select>
+          </td>
+          <td>
+            <label for="paymet at">Payment at</label>
+          </td>
+          <td>
+            <input type="payment at" name="payment at" id="payment" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email">Email</label>
+          </td>
+          <td>
+            <input type="Email" name="Email" id="Email" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="phone Number">Phone Number</label>
+          </td>
+          <td>
+            <input type="phone Number" name="phone number" id="phone number" />
+          </td>
+        </tr>
+      </table>
+      <table width="100%">
+        <tr bgcolor="lightgray" align="center">
+          <td colspan="4">
+            <input class="btn" type="submit" />
+            <input class="btn" type="button" value="reset" />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
